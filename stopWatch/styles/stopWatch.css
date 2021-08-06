@@ -1,0 +1,35 @@
+body {
+    background: #fff;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    height: 10rem;
+    text-align: center;
+    margin: 5em;
+    flex: 1;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2, p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size:3em;
+    text-transform: uppercase;
+    color: black;
+}
+
+button{
+    background:  #fff;
+    color: black;
+    height: 4rem;
+    border: solid 1px black;
+    width: 8rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    text-decoration: none; 
+    margin: 10px;
+}
