@@ -18,9 +18,20 @@ body.dark-mode p{
     color: var(--light-color);
 }
 
-body.dark-mode button{
-        background-color: var(--light-color);
+body.dark-mode #button-start{
+        background-color: #39ff14;
         color: var(--dark-color);
+        font-weight: bold;
+}
+body.dark-mode #button-stop{
+        background-color: #ff0000;
+        color: var(--dark-color);
+        font-weight: bold;
+}
+body.dark-mode #button-reset{
+        background-color: #ffff00;
+        color: var(--dark-color);
+        font-weight: bold;
 }
 
 /* light mode */
