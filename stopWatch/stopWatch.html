@@ -1,49 +1,29 @@
-body {
-    background: #fff;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    height: 10rem;
-    text-align: center;
-    margin: 5em;
-    flex: 1;
-}
-
-.container {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-h1, h2, p {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    font-size:3em;
-    text-transform: uppercase;
-    color: black;
-}
-
-button{
-    background:  #fff;
-    color: black;
-    height: 4rem;
-    width: 8rem;
-    font-size: 1.2rem;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    text-decoration: none; 
-    margin: 10px;
-}
-
-#button-start{
-    border: solid 2px #39ff14;
-    color: #39ff14;
-}
-
-#button-stop{
-    border: solid 2px #ff0000;
-    color: #ff0000;
-}
-
-#button-reset{
-    border: solid 2px #ffff00;
-    color: #ffff00;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="src/styles/darkMode.css">
+    <link rel="stylesheet" href="src/styles/stopWatch.css">
+    
+    <script src="darkMode.js"></script>
+    <script src="stopWatch.js"></script>
+    
+    <title>StopWatch</title>
+</head>
+    <body id="body" class="dark-mode">
+    
+    <button type="button" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">🌛</button>
+    <div id="container">
+       
+        <h1>StopWatch</h1>
+        <p>
+            <span id="minutes">00</span>:<span id="seconds">00</span>:<span id="tens">00</span>
+        </p>
+        <button id="button-start">Start</button>
+        <button id="button-stop">Stop</button>
+        <button id="button-reset">Reset</button>
+    </div>
+</body>
+</html>
